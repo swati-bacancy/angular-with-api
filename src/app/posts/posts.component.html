@@ -1,0 +1,13 @@
+
+<div id="content">
+  <h1>Posts</h1>
+  <ul>
+    <li *ngFor= 'let post of posts$'>
+      <ul>
+        <li><a routerlink="">{{ post.title }}</a></li>
+        <li>{{ post.body }}</li>
+
+      </ul>
+    </li>
+  </ul>
+</div>
